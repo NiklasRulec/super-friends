@@ -1,0 +1,36 @@
+.home-section {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-section .friend-card-gallery {
+  width: 100%;
+  min-height: 80vh;
+  padding-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.home-section .friend-card-gallery .friend-card {
+  width: 30rem;
+  height: 40rem;
+  border-radius: 0.5rem;
+  margin: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: var(--lightshadow);
+  transition: all 0.3s;
+}
+
+.home-section .friend-card-gallery .friend-card:hover {
+  transform: scale(1.1);
+  box-shadow: var(--strongshadow);
+}
